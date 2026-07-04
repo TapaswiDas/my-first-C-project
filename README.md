@@ -1,4 +1,3 @@
-# my-first-C-project
 # 🚀 My First C Projects
 
 Welcome to my repository! I am an incoming B.Tech freshman profiling my self-taught coding journey before stepping onto college campus. I built these projects completely from scratch to get a solid, practical head start on C programming mechanics, logic design, and problem-solving.
