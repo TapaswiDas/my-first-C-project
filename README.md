@@ -27,6 +27,7 @@ The application cleanly separates user interface, execution routines, and core l
 * Standard Input/Output streaming & Buffer Cleansing (`getchar()`, `scanf()`, `fgets()`)
 * String Manipulation & Null-Terminator Management (`strcmp()`, `strcspn()`)
 * Multi-layered conditional nesting (`if`, `else if`, `else`)
+* structured and efficient use of loops (`for`,`while`), allowing multi-line code management
 
 ## 🎯 Next Milestone
 My next step is to level up these programs by introducing **Arrays** to manage multi-user data slots, followed by breaking the monolithic code down into clean, reusable **Functions**.
