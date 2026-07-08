@@ -11,7 +11,7 @@ void instructions(){
     printf("      Will you be able to guess? Go ahead! try your luck!      \n\n\n");
 }
 
-bool guess_game(int num1, int sec_num) {
+int guess_game(int num1, int sec_num) {
     if (num1==sec_num){
         return 1;
     } else if (num1>sec_num){
@@ -35,13 +35,16 @@ int main(){
     while (game_status!=1) {
         printf("Enter your guess:\n");
         scanf("%i",&guess);
-        bool game_status=guess_game(guess,rand_int);
+        game_status=guess_game(guess,rand_int);
         attempts++;
-        printf("oops! try again!\n"); 
+        if (game_status==0){
+            printf("guessing too high! try again.\n\n");
+        } else if (game_status==-1){
+            printf("guessing too low! try again.\n\n");
+        }
     }
     printf("congrats! you guessed it");
         
         
 
     return 0;
-}
